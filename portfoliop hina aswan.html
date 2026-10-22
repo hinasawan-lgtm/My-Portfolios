@@ -1,0 +1,174 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hina Sawan | Portfolio</title>
+    <style>
+        :root {
+            --emerald-dark: #064e3b;
+            --emerald-main: #10b981;
+            --emerald-light: #34d399;
+            --emerald-glow: #a7f3d0;
+            --bg-dark: #0a0f0d;
+            --bg-card: #121a16;
+            --text-light: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
+                        0 0 20px rgba(16, 185, 129, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--emerald-main), var(--emerald-glow));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--bg-dark);
+            box-shadow: 0 0 20px rgba(52, 211, 153, 0.4);
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            color: var(--emerald-light);
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            color: var(--text-muted);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .portfolio-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 16px 24px;
+            background: linear-gradient(135deg, var(--emerald-main), var(--emerald-dark));
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+            border: 1px solid var(--emerald-light);
+        }
+
+        .portfolio-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(52, 211, 153, 0.5);
+            background: linear-gradient(135deg, var(--emerald-light), var(--emerald-main));
+            color: var(--bg-dark);
+        }
+
+        .portfolio-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar">HS</div>
+        <h1>Hina Sawan</h1>
+        <div class="subtitle">Web Developer & Digital Media Specialist</div>
+        <p class="description">Crafting modern, dynamic web solutions and engaging digital media experiences driven by creativity and technology.</p>
+        
+        <!-- Replace 'YOUR_PORTFOLIO_URL_HERE' with your actual website link -->
+        <a href="https://yourportfolio.com" target="_blank" class="portfolio-btn">
+            <span>View My Portfolio</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M14 3h7v7h-2V6.414l-9.293 9.293-1.414-1.414L17.586 5H14V3zM5 5h6v2H5v12h12v-6h2v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/>
+            </svg>
+        </a>
+    </div>
+
+</body>
+</html>
+
+  
+
+
+
+
+
+
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     OUTPUT:
+       
+       
