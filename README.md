@@ -1,2 +1,3 @@
 # My-Portfolios
-My portfolio drafts as a website
+My portfolio drafts website
+Author Hina Sawan
